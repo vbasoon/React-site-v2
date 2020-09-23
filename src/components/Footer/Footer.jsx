@@ -37,15 +37,12 @@ const Footer = () => {
                   <Link to='/'>Destinations</Link>
                   <Link to='/'>Sponsorships</Link>
                </div>
-            </div>
-            <div className="footer-link-wrapper">
                <div className="footer-link-items">
                   <h2>Videos</h2>
-                  <Link to='/'></Link>
-                  <Link to='/'>Testimonials</Link>
-                  <Link to='/'>Careers</Link>
-                  <Link to='/'>Investors</Link>
-                  <Link to='/'>Terms of Service</Link>
+                  <Link to='/'>Submit Video</Link>
+                  <Link to='/'>Ambassadors</Link>
+                  <Link to='/'>Agency</Link>
+                  <Link to='/'>Influencer</Link>
                </div>
                <div className="footer-link-items">
                   <h2>Social Media</h2>
@@ -53,15 +50,14 @@ const Footer = () => {
                   <Link to='/'>Testimonials</Link>
                   <Link to='/'>Careers</Link>
                   <Link to='/'>Investors</Link>
-                  <Link to='/'>Terms of Service</Link>
                </div>
             </div>
          </div>
          <section className="social-media">
             <div className="social-media-wrap">
-               <div className="footer-log">
-                  <Link to='/' className="social-log">
-                     TRAVEL <i className="fab fa-typo3"></i>
+               <div className="social-logo">
+                  <Link to='/' className="social-logo">
+                     TRAVEL&nbsp;<i className="fas fa-mountain"></i>
                   </Link>
                </div>
                <small className="website-rights">TRAVEL &copy; 2020</small>
