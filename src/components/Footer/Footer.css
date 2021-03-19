@@ -121,7 +121,7 @@
 
 .social-logo {
    color: #ffffff;
-   justify-content: start;
+   justify-self: start;
    margin-left: 20px;
    cursor: pointer;
    text-decoration: none;
